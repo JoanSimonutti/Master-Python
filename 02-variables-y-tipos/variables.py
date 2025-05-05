@@ -16,11 +16,13 @@ Puede cambiar su valor durante el programa (de ahí el nombre "variable").
 
 """
 
+# Crear variables y asignarles un valor
 texto = "Hola! Soy Joan Simonutti y éste es mi Master en Python"
 texto2 = "Guacamole cha cha cha!"
 numero = 327
 decimal = 6.7
 
+# Mostrar el valor de las variables
 print(texto)
 print(texto2)
 print(numero)
@@ -28,8 +30,18 @@ print(decimal)
 
 print("------------- barra separadora -------------")
 
+# Reasignar el valor de algunas variables
 numero = 1022
 decimal = 10.22
 
 print(numero)
 print(decimal)
+
+print("------------- barra separadora -------------")
+
+# Concatenación
+nombre = "Joan"
+apellido = "Simonutti"
+web = "joansimonutti.com.ar"
+
+print(nombre + " " + apellido + " - " + web)
