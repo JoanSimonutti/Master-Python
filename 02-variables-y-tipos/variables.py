@@ -39,9 +39,27 @@ print(decimal)
 
 print("------------- barra separadora -------------")
 
-# Concatenación
+# Concatenación 
+# La concatenación de variables es el proceso de unir
+# dos o más valores, generalmente cadenas de texto (strings),
+# para formar una sola cadena.
+
+# Interpolar significa insertar valores dentro de una cadena de texto,
+# reemplazando marcadores con variables o expresiones. 
+# Esto se conoce como interpolación de cadenas o "string interpolation"
+
 nombre = "Joan"
 apellido = "Simonutti"
 web = "joansimonutti.com.ar"
 
-print(nombre + " " + apellido + " - " + web)
+print(nombre + " " + apellido + " - " + web) #Concatenar
+
+print(f"{nombre} {apellido} - {web}") #Interpolar es incrustar variables dentro de un texto 
+                                      #de forma clara y legible utilizando f-strings, 
+                                      #que es el método más legible, moderno y recomendado desde Python 3.6
+
+print("Hola me llamo {} {} y mi web es: {}".format(nombre, apellido, web)) #Interpolacion con el método .format
+
+print(nombre, apellido, web) #En este caso no seria una concatenación, 
+                             #ya que solo le estamos pasando variables sueltas
+                             #a la funcion print para que las muestre por consola.
