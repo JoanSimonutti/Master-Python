@@ -36,3 +36,23 @@ print(diccionario)
 
 # Mostrar tipo de dato
 print(type(diccionario))
+
+print("------------- barra separadora -------------")
+
+# Convertir un tipo de dato a otro tipo de dato: 
+# en éste caso convertimos un integer (numero entero) a string (cadena de texto), 
+# ya que no se puede concatenar un string con un integer. 
+
+texto = "Hola soy un texto"
+numerito = str(327)
+print(texto + " " + numerito)
+
+# Cambiamos a numerito de string a integer
+numerito = int(327)
+print(numerito)
+print(type(numerito))
+
+# Cambiamos a numerito de integer a float (número decimal, por eso en consola imprime 327.0)
+numerito = float(327)
+print(numerito)
+print(type(numerito))
