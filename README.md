@@ -1,2 +1,2 @@
-Programación desde cero con Python 3 y desarrollo web con Django 3 y Flask. <br/>
+Programación desde cero con Python y desarrollo web con los frameworks Django y Flask. <br/>
 Por Joan Simonutti.
