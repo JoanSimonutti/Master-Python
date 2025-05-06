@@ -14,10 +14,25 @@ listaString = [44, "treinta", 27, "noventa"]
 
 tupla = ("Master", "en", "Python") # tuple (Tupla) - Lista ordenada, no modificable - Ej: (1, 2, 3)
 
+diccionario = {            
+    "nombre": "Joan",        # dictionary - Diccionario de pares clave-valor - Ej: {"nombre": "Ana", "edad": 25}
+    "apellido": "Simonutti",
+    "edad": 37
+}
+
+rango = range(9)  # range - Rango de números Ej: range(5)
+
+dato_bytes = b"Prueba" # bytes - Dato bytes, el tipo de dato bytes representa una secuencia inmutable 
+                         # de valores de bytes, es decir, números enteros entre 0 y 255. 
+                         # Se usa principalmente para trabajar con datos binarios, 
+                         # como archivos (.pdf), imágenes (.jpg), conexiones de red, audio, etc. 
+                         # NOTA: Qué es un byte en Python? 
+                         # Es una unidad de datos que puede representar un valor entre 0 y 255.
+                         # Un objeto de tipo bytes es como una lista inmutable de estos valores.
 
 
 # Imprimir variable
-print(tupla)
+print(diccionario)
 
 # Mostrar tipo de dato
-print(type(tupla))
+print(type(diccionario))
